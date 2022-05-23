@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang = "pt br">
+
+<head>
+
+
+<meta content = "text/html:charset=" UTF - 8">
+<title id = "t1">Form</title>
+<link rel="shortcut icon" href = "apple-touch-icon.png" type=”image/x-icon”>
+
+</head>
+<body>
+
+<div>
+<table  align = "center" rowspan = "3" colspan = "3" border = "0">
+	<tr>
+		<td >
+			<h1 ><img src = "baseline_inventory_black_24dpbig.png" width = "50px">Site de formulário</h1>
+		</td>
+	</tr>
+</table>
+</div>
+
+<table align = "center" rowspan = "3" colspan = "3" border = "0">
+<form>
+<tr>
+	<th align = "center" colspan = "3"> 
+		<h3> Preencha o formulário de dados de cadastro</h3>
+	</th>
+</tr>
+<tr>
+	<td><b> Nome completo:</td>
+	<td align = "center"colspan = "3"><input type= "text"></td>
+</tr>
+<tr>
+	<td><b> Sexo:</td>
+	<td align="center"><input type= "radio" name= "sexo" value= "f" checked > Feminino</td>
+    <td align="center"><input type= "radio" name= "sexo" value= "m" checked > Masculino</td>
+</tr>
+<tr>
+	<td><b> Email:</td>
+	<td align = "center" colspan = "3"> <input type= "text"></td>
+</tr><tr>
+	<td><b> Nova Senha:</td>
+	<td align = "center" colspan = "3"> <input type= "password" name = "senha"></td>
+</tr><tr>
+	<td><b> Faixa de Idade:</td>
+	<td align = "center" colspan = "3"> <select name="faixaIdade">
+    <option value="1">16 a 19 anos</option>
+    <option value="2">20 a 22 anos</option>
+    <option value="3">23 a 25 anos</option>
+    <option value="4">26 ou mais</option>
+	</select></td>
+</tr>
+<tr>
+	<td><b> Vagas:</td>
+	<td align = "left" colspan = "3">
+	<input type="checkbox" name="auxiliar" value="a"> Auxiliar<br>
+	<input type="checkbox" name="operacional" value ="o"> Operacional<br>
+	<input type="checkbox" name="Estagiário" value="e"> Estágio<br>
+	<input type="checkbox" name="jovemaprendiz" value="j"> Jovem Aprendiz
+	</td>
+</tr>
+<tr>
+	<td><b> Digite aqui por que você deve ser contratado:</td>
+	<td align="center" colspan="3">
+     <textarea name="justificativa" rows="3" cols="50">Digite aqui...</textarea>
+    </td>  
+</tr>
+<tr>
+	<td><b> Numero de telefone:</td>
+	<td align = "center" colspan = "3"><input type = "text"></td>
+</tr>
+<tr>
+	<td><b> Escolaridade:</td>
+	<td align = "center"colspan = "3"><select name="faixaIdade">
+    <option value="1">Fundamental</option>
+    <option value="2">Ensino médio</option>
+    <option value="3">Faculdade</option>
+	</td>
+</tr>
+<tr>
+	<td><b> Cursando:</td>
+	<td align="center"><input type= "radio" name= "escolha" value= "s" checked >Sim</td>
+    <td align="center"><input type= "radio" name= "escolha" value= "n" checked >Não</td>
+</tr>
+<tr>
+<td align = "center"colspan = "2"><input type="submit" value="Enviar" ></td>
+<td align = "center"colspan = "2"><input type="reset" value="Limpar" ></td>
+</tr>
+</form>
+</table>
+
+
+</body>
+
+</html>

@@ -6,22 +6,22 @@
 
 <meta content = "text/html:charset=" UTF - 8">
 <title id = "t1">Form</title>
-<link rel="shortcut icon" href = "apple-touch-icon.png" type=”image/x-icon”>
+<link rel="shortcut icon" href = "apple-touch-icon.jpeg" type="image/x-icon">
 
 </head>
 <body>
 
 <div>
-<table  align = "center" rowspan = "3" colspan = "3" border = "0">
+<table  align = "center" rowspan = "3" colspan = "3" border = "1">
 	<tr>
 		<td >
-			<h1 ><img src = "baseline_inventory_black_24dpbig.png" width = "50px">Site de formulário</h1>
+			<h1 ><img src = "baseline_inventory_black_24dpbig.jpeg" width = "50px">Site de formulário</h1>
 		</td>
 	</tr>
 </table>
 </div>
 
-<table align = "center" rowspan = "3" colspan = "3" border = "0">
+<table align = "center" rowspan = "3" colspan = "3" border = "1">
 <form>
 <tr>
 	<th align = "center" colspan = "3"> 
@@ -45,7 +45,7 @@
 	<td align = "center" colspan = "3"> <input type= "password" name = "senha"></td>
 </tr><tr>
 	<td><b> Faixa de Idade:</td>
-	<td align = "center" colspan = "3"> <select name="faixaIdade">
+	<td align = "center" colspan = "3"> <select name="faixaIdade" size= "3">
     <option value="1">16 a 19 anos</option>
     <option value="2">20 a 22 anos</option>
     <option value="3">23 a 25 anos</option>
@@ -53,8 +53,8 @@
 	</select></td>
 </tr>
 <tr>
-	<td><b> Vagas:</td>
-	<td align = "left" colspan = "3">
+	<td><b> Vagas de interesse<br> no mercado de trabalho:</td>
+	<td align = "center" colspan = "3">
 	<input type="checkbox" name="auxiliar" value="a"> Auxiliar<br>
 	<input type="checkbox" name="operacional" value ="o"> Operacional<br>
 	<input type="checkbox" name="Estagiário" value="e"> Estágio<br>
@@ -62,7 +62,7 @@
 	</td>
 </tr>
 <tr>
-	<td><b> Digite aqui por que você deve ser contratado:</td>
+	<td><b> Observações relevantes:</td>
 	<td align="center" colspan="3">
      <textarea name="justificativa" rows="3" cols="50">Digite aqui...</textarea>
     </td>  
@@ -85,13 +85,12 @@
     <td align="center"><input type= "radio" name= "escolha" value= "n" checked >Não</td>
 </tr>
 <tr>
-<td align = "center"colspan = "2"><input type="submit" value="Enviar" ></td>
-<td align = "center"colspan = "2"><input type="reset" value="Limpar" ></td>
+<td align = "center"colspan = "1"></td>
+<td align = "center"colspan = "1"><input type="submit" value="Enviar" ></td>
+<td align = "center"colspan = "1"><input type="reset" value="Limpar" ></td>
 </tr>
 </form>
 </table>
-
-
 </body>
 
 </html>
